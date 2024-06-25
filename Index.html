@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style link  -->
+    <link rel="stylesheet" href="./Source/Style.css" />
+    <link rel="shortcut icon" href="./Images/icon.jpg" type="image/x-icon" />
+    <title>BMI kalkulyator</title>
+  </head>
+  <body>
+    <nav id="navbar-section">
+      <div class="navbar-content">
+        <a href="./Index.html" class="nav-link">
+          <!-- <img src="./Images/icon.jpg" alt="" width="5px" height="5px"/> calculator -->BMI
+          kalkulyatori
+        </a>
+        <!-- <label htmlFor="navbar-darkmode " class="darkmode">
+          <input type="checkbox" id="navbar-darkmode" class="navbar-darkmode" />
+          <p class="darkmode">
+            <img
+              src="./Images/Light.svg"
+              alt="darkmode-img"
+              class="darkmode-img"
+              width="150px"
+              height="150px"
+            />Tungi
+          </p>
+          <p class="lightmode">
+            <img
+              src="./Images/Dark.svg"
+              alt="lightmode-img"
+              class="lightmode-img"
+              width="150px"
+              height="150px"
+            />
+            Tongi
+          </p>
+        </label> -->
+      </div>
+    </nav>
+    <main class="index-main">
+      <section class="container gen-section">
+        <button class="female">
+          <img class="female-img" src="./Images/Female.svg" alt="" />
+          <h3 class="female-title">Ayol</h3>
+        </button>
+        <button class="male">
+          <img class="male-img" src="./Images/Male.svg" alt="" />
+          <h3 class="male-title">Erkak</h3>
+        </button>
+      </section>
+      <section class="weight-section container">
+        <h3 class="weight-title">Vazningiz</h3>
+        <span class="weight-counter">50</span>
+        <input
+          id=""
+          name=""
+          min="10"
+          max="200"
+          value="50"
+          type="range"
+          class="weight-input"
+        />
+      </section>
+      <section class="height-section container">
+        <div class="height">
+          <h3 class="height-title">Bo'yingiz</h3>
+          <span class="height-counter">160</span>
+          <div class="age-cal">
+            <button class="height-minus">
+              <img src="./Images/minus-solid.svg" alt="" />
+            </button>
+            <button class="height-plus">
+              <img src="./Images/plus-solid.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="age">
+          <h3 class="age-title">Yoshingiz</h3>
+          <span class="age-counter">20</span>
+          <div class="age-cal">
+            <button class="age-minus">
+              <img src="./Images/minus-solid.svg" alt="" />
+            </button>
+            <button class="age-plus">
+              <img src="./Images/plus-solid.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main class="result-main container">
+      <h2 class="main-title">Sizning natijangiz:</h2>
+      <section class="result-section">
+        <h2 class="result-title"></h2>
+        <span class="result-counter"></span>
+        <h1 class="ads">
+          Ishlab chiquvchi:
+          <a href="https://t.me/m1rzo_dev" class="ads-link">m1rzo_dev</a>
+        </h1>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#" class="footer-link" id="index-link"> Orqaga</a>
+      <a href="#" class="footer-link" id="result-link"> Hisoblash</a>
+    </footer>
+
+    <script src="./Source/App.js"></script>
+  </body>
+</html>

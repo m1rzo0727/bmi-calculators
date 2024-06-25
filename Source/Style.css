@@ -309,7 +309,7 @@ main {
   display: flex;
   padding: 25px 10px;
   border-radius: 25px; 
-  margin-bottom: 55px;
+  margin-bottom: 65px;
   align-items: center;
   flex-direction: column;
   background: var(--dark-bgcolor);
@@ -373,7 +373,7 @@ footer {
 
   .result-section {
   
-  border-radius: 25px; 
+ margin-bottom: 65px;
 }}
 
 @media (max-width: 580px) {
@@ -403,8 +403,8 @@ footer {
   }
 
     .result-section {
-  
-  border-radius: 25px; 
+   margin-bottom: 65px;
+ 
 }
 
   .age-cal,
@@ -423,8 +423,7 @@ footer {
     max-width: 450px;
   }
   .result-section {
-  
-  border-radius: 25px; 
+   margin-bottom: 65px;
 }
   .height,
   .age {
@@ -467,8 +466,7 @@ footer {
     margin: 0 auto;
     max-width: 400px;
   }  .result-section {
-  
-  border-radius: 25px; 
+   margin-bottom: 65px;
 }
   .female,
   .male,
@@ -491,8 +489,7 @@ footer {
     margin: 0 auto;
     max-width: 350px;
   }  .result-section {
-  
-  border-radius: 25px; 
+   margin-bottom: 65px;
 }
   .nav-link {
     font-size: 25px;
@@ -519,8 +516,7 @@ footer {
     width: 100%;
     max-width: 300px;
   }  .result-section {
-  
-  border-radius: 25px; 
+   margin-bottom: 65px;
 }
 
   .height-section {

@@ -308,7 +308,8 @@ main {
   width: 100%;
   display: flex;
   padding: 25px 10px;
-  border-radius: 25px;
+  border-radius: 25px; 
+  margin-bottom: 25px;
   align-items: center;
   flex-direction: column;
   background: var(--dark-bgcolor);

@@ -370,7 +370,11 @@ footer {
     width: 100%;
     max-width: 550px;
   }
-}
+
+  .result-section {
+  
+  border-radius: 25px; 
+}}
 
 @media (max-width: 580px) {
   .navbar-content,
@@ -398,6 +402,11 @@ footer {
     margin-bottom: 145px;
   }
 
+    .result-section {
+  
+  border-radius: 25px; 
+}
+
   .age-cal,
   .age-cal {
     gap: 50px;
@@ -413,7 +422,10 @@ footer {
     width: 100%;
     max-width: 450px;
   }
-
+  .result-section {
+  
+  border-radius: 25px; 
+}
   .height,
   .age {
     margin: 0 auto;
@@ -433,7 +445,10 @@ footer {
     display: flex;
     gap: 50px;
   }
-
+  .result-section {
+  
+  border-radius: 25px; 
+}
   .age-minus,
   .age-plus,
   .height-minus,
@@ -451,7 +466,10 @@ footer {
     width: 100%;
     margin: 0 auto;
     max-width: 400px;
-  }
+  }  .result-section {
+  
+  border-radius: 25px; 
+}
   .female,
   .male,
   .height,
@@ -472,7 +490,10 @@ footer {
     width: 100%;
     margin: 0 auto;
     max-width: 350px;
-  }
+  }  .result-section {
+  
+  border-radius: 25px; 
+}
   .nav-link {
     font-size: 25px;
   }
@@ -497,7 +518,10 @@ footer {
   footer {
     width: 100%;
     max-width: 300px;
-  }
+  }  .result-section {
+  
+  border-radius: 25px; 
+}
 
   .height-section {
     margin-bottom: 135px;
